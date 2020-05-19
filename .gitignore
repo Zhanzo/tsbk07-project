@@ -1,0 +1,28 @@
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+# Unignore makefile
+!makefile
+!Makefile
+
+### Above combination will ignore all files without extension ###
+
+# Ignore binaries with extension
+*.o
+*.a
+
+# Ignore mac folder
+.DS_STORE
+
+# Ignore editor files
+.vscode
+*~
+
+# Ignore imgui files
+imgui.ini
